@@ -1,0 +1,31 @@
+/*Pie de pagina*/
+
+#seccion-pie {
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-de-pagina {
+    background-color: rgb(23, 21, 21);
+    color: #fafafa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+    gap: 1px;
+}
+
+.columna-pie {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.columna-pie h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 5px;
+ 
+}
+.columna-pie p {
+    font-size: 1rem;
+}
