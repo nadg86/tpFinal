@@ -1,0 +1,48 @@
+/*Header*/
+
+
+
+header {
+    background-color: #f0ccd5;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  #menu ul li a {
+    color: #242424;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .icons {
+    font-size: larger;
+  }
+  
+  button {
+    margin: 10px;
+  }
+  
+  .btn-desplegable {
+    border: none;
+  }
+  
+  .imgLogo {
+    width: 100%;
+    max-width: 250px;
+  }
+  
+  .btn-desplegable {
+    border: none;
+  }
+  
+  .btnHeader:hover {
+    background-color: rgb(148, 113, 122);
+    border-radius: 5px;
+  }
+  
+  .desplegable {
+    background-color: #f0ccd5;
+    color: #f0ccd5;
+  }

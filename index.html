@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Sitio web dedicado a la belleza y el cuidado de la piel. Encuentra consejos y productos de belleza de alta calidad.">
+
+    <title>Index</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Referencia al archivo CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- Referencia a jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+
+    <!-- Referencia a Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+
+    <!-- Referencia al archivo JavaScript de Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- FUENTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+
+<body class="">
+
+    <header>
+
+        <nav class="navbar navbar-expand-md">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="imgLogo" src="img/logo.png" alt=" Logo Depi Style">
+                </a>
+
+                <button class="navbar-toggler btn-desplegable" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#menu" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link active" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="./html/tratamiento.html">Tratamiento</a>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="./html/centros.html">Centros</a>
+                        </li>
+                        <li class="nav-item dropdown btnHeader">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" href="./html/preciosypromociones.html">Precios y
+                                promociones</a>
+                            <ul class="dropdown-menu desplegable">
+                                <li>
+                                    <a class="dropdown-item" href="./html/promociones.html">Promociones</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="">Precios por zona</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item btnHeader">
+                            <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <hr class="hr1">
+                    <ul class="navbar-nav flex-row flex-wrap" id="incos">
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-whatsapp"></i>
+                            <small class="d-md-none ms-2">whatsapp</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-facebook"></i>
+                            <small class="d-md-none ms-2">Facebook</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-instagram"></i>
+                            <small class="d-md-none ms-2">Instagram</small>
+                        </li>
+                        <li class="nav-item col-6 col-md-auto icons">
+                            <i class="bi bi-twitter"></i>
+                            <small class="d-md-none ms-2">Twitter</small>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- CARRUSEL -->
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+
+        <div class="carousel-inner contenedor-carousel">
+
+            <div class="carousel-item active" data-bs-interval="3000">
+                <img src="img/relax 1.jpg" class="d-block imgCarousel" alt="Mascara facial">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/camilla relax 1.jpg" class="d-block imgCarousel" alt="Camilla de masajes">
+            </div>
+
+            <div class="carousel-item" data-bs-interval="3000">
+                <img src="img/limpieza cara 1.jpg" class="d-block imgCarousel" alt="Limpieza de rostro">
+            </div>
+
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- MAIN -->
+
+    <section class="w-50 mx-auto text-center pt-5 sectionOne" id="intro">
+        <h1 class="p-3 fs-2 border-3" id="incio">Soprano Ice Platinum</h1>
+        <p><span class="text-primary">Depi Style</span> es un lugar donde lorem ipsum dolor sit, amet consectetur
+            adipisicing elit. Odit,
+            inventore autem quas officiis quaerat earum,
+            soluta itaque sit fugit rerum quod. Impedit quam aut in soluta quibusdam eligendi non sit!</p>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto seccion-index">
+            <div class="col-lg-6 col md-6 col-sm-12 contenedor-imagen" id="img-inicio">
+                <img src="img/blancoynegro3mujeres.png" alt="tres mujeres saludando">
+            </div>
+            <div class="col-lg-6 col md-6 col-sm-12 parrafo-index">
+                <p id="titulo-parrafo">Disponemos de la mejor tecnologia en depilacion laser</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit eos quia ad sed fugiat, ut
+                    beatae in expedita esse dolore qui eaque laboriosam inventore similique pariatur perferendis
+                    delectus, rem consequatur doloremque laudantium. Sapiente sint ratione facilis iusto? Neque vero,
+                    nihil natus fugit dicta officiis? Commodi error obcaecati repellat unde officiis.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla similique cumque, beatae quae nam rem
+                    soluta vel ullam culpa dolorum, voluptate ab ducimus explicabo quia ea, hic fugiat. Nihil, unde! Cum
+                    nemo eius quasi amet deleniti laudantium ipsa, sed ipsam quaerat atque veritatis, rerum ratione
+                    nobis eos sunt nisi in. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure repudiandae
+                    quisquam labore vel odit alias magni, asperiores, veniam, animi ratione quia officia nemo dolorem!
+                    Quo nesciunt delectus quae sint impedit.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container-fluid p-0" id="seccion-pie">
+        <div class="pie-de-pagina">
+
+            <div class="columna-pie">
+                <h3>Central de atencion al cliente</h3>
+                <p>1137414487</p>
+                <h3>Horrios</h3>
+                <p>De lunes a Viernes de 9 a 20hs</p>
+                <p>Sabados de 9 a 16hs</p>
+                <h3>Oficinas </h3>
+                <p>Recoleta</p>
+                <p>Lomas de zamora</p>
+            </div>
+            <div class="columna-pie">
+                <h3>Menu</h3>
+                <p>Home</p>
+                <p>Gift cards</p>
+                <p>Referidos</p>
+                <p>Sobre nosotros</p>
+            </div>
+            <div class="columna-pie">
+                <h3>Legal</h3>
+                <p>Terminos y condiciones</p>
+                <p>Privacidad de datos</p>
+                <p>Arrepentimiento de compra</p>
+                <p>Preguntas frecuentes</p>
+                <p>Politica de cambios y devoluciones</p>
+                <p>Promociones vigentes</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <p class="fs-6 px-3 pt-3">Depi Style - Todos los derechos reservados 2023</p>
+        <div id="icons">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-twitter"></i></a>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
