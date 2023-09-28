@@ -1,0 +1,46 @@
+/*Seccion abajo del carousel*/
+h1 inicio {
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+  
+  .sectionOne {
+    border-top: black solid 1px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  #seccion-inicio {
+    border: 1px solid red;
+    width: 100%;
+    max-width: 75%;
+    margin-bottom: 30px;
+  }
+  
+  .seccion-index {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+  
+  #titulo-parrafo {
+    font-size: 45px;
+    font-weight: bolder;
+    max-width: 100%;
+  }
+  
+  .parrafo-index p {
+    font-size: 16px;
+    max-width: 100%;
+  }
+  
+  #img-inicio {
+    object-fit: cover;
+    max-width:100%;
+  }
+  
