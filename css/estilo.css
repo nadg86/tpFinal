@@ -124,7 +124,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/*Accordion*/
+/*Accordion Tratamiento*/
 .main-tratamiento {
   background-color: #fbf8f9;
   margin: 3rem;
@@ -139,6 +139,41 @@ main section h1 {
 #preguntas {
   font-size: 16px;
   font-weight: bold;
+}
+
+/*Centros*/
+.titulo-centros {
+  text-align: center;
+  font-size: 26px;
+  margin: 25px;
+}
+
+.container-centros {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 75%;
+  border: 1px solid red;
+  margin: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.centros {
+  max-width: 90%;
+  margin: 20px 10px;
+  border: 1px solid black;
+}
+
+.centros #img-centros {
+  object-fit: cover;
+  width: 75%;
+  height: 350px;
+}
+
+.titulo-tarjeta {
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
 /*Pie de pagina*/
@@ -368,6 +403,19 @@ section {
     text-align: center;
     justify-content: center;
     align-items: center;
+  }
+}
+/*Centros*/
+@media (max-width: 1092px) {
+  .container-centros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .container-centros {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
