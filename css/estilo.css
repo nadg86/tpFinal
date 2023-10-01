@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*Header*/
 header {
   background-color: #f0ccd5;
@@ -152,28 +153,30 @@ main section h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 75%;
-  border: 1px solid red;
   margin: 20px;
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #fff9f9;
 }
 
 .centros {
   max-width: 90%;
   margin: 20px 10px;
-  border: 1px solid black;
+  background-color: #fafafa;
+  box-shadow: 0px 3px 5px #ededed;
 }
-
 .centros #img-centros {
   object-fit: cover;
-  width: 75%;
-  height: 350px;
+  width: 100%;
+  height: 400px;
 }
 
 .titulo-tarjeta {
   font-size: 1rem;
   text-transform: uppercase;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 /*Pie de pagina*/
@@ -205,6 +208,165 @@ main section h1 {
 
 .columna-pie p {
   font-size: 1rem;
+}
+
+/*Promocionnes*/
+/*Encabezado promociones*/
+#titulo-promos {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.contenedor-encabezado {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#seccion-encabezado-promos {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-promociones {
+  margin-bottom: 30px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.contenedor-imagen {
+  max-width: 400px;
+  height: auto;
+}
+
+.imagen-tamaño {
+  height: 100%;
+  object-fit: cover;
+}
+
+.columna-texto-promos {
+  text-align: center;
+  align-items: center;
+}
+.columna-texto-promos h2 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-decoration: underline 6px solid #f0ccd5;
+}
+.columna-texto-promos h3 {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+div img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/*seccion zonas sueltas*/
+.zonas-sueltas {
+  text-align: center;
+  font-size: 36px;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.contenedor-btn-promos {
+  text-align: center;
+}
+
+.btn-promociones {
+  padding: 10px 20px;
+  border: 1px solid black;
+  color: black;
+  cursor: pointer;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+.btn-promociones:hover {
+  background-color: #919191;
+}
+
+.accordion-item-promos1 {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+}
+
+.accordion-item-promos2 {
+  border-bottom: 1px solid black;
+}
+
+/*Seccion tarjetas*/
+#h2-giftcards {
+  text-align: center;
+  font-size: 36px;
+}
+
+.contenedor-tarjetas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  max-width: 75%;
+  justify-content: center;
+  align-items: center;
+  text-align: center !important;
+  margin: 40px;
+}
+
+.tarjeta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+  box-shadow: 0px 5px 10px #4b4a4a;
+  margin: 10px;
+  border-radius: 5px;
+  max-width: 100%;
+  width: 90%;
+}
+.tarjeta img {
+  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  height: 200px;
+  border-radius: 5px;
+}
+.tarjeta p {
+  margin: 10px 0;
+}
+
+.card-title {
+  margin: 10px;
+}
+
+.card-text {
+  margin: 10px;
+}
+
+.btn {
+  background-color: #d1d1d1;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 10px;
+  text-align: center;
+}
+.btn:hover {
+  background-color: #252424;
+  color: #fafafa;
+  align-self: center;
 }
 
 /*Carousel*/
@@ -370,14 +532,34 @@ section {
     justify-content: center !important;
   }
 }
-@media (max-width: 1023px) {
-  .contenedor-promos {
-    grid-template-columns: 1fr 1fr;
+@media (max-Width: 768px) {
+  .accordion {
+    width: 75% !important;
+    text-align: center;
   }
 }
-@media (max-width: 645px) {
-  .contenedor-promos {
+@media (max-Width: 1750px) {
+  .contenedor-tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 75%;
+  }
+}
+@media (max-Width: 850px) {
+  .contenedor-tarjetas {
+    display: grid;
     grid-template-columns: 1fr;
+    max-width: 75%;
+  }
+}
+@media (max-Width: 1300px) {
+  .contenedor-tarjetas {
+    max-width: 75%;
+  }
+}
+@media (max-Width: 650px) {
+  .contenedor-tarjetas {
+    max-width: 90%;
   }
 }
 /*Contacto*/
